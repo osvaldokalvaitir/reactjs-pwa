@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import axios from "axios";
 
+import GlobalStyle from "./global";
+
 import { Header, Repositories } from "./styles";
 
 class App extends Component {
@@ -25,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+        <GlobalStyle />
         <Header>
           <input
             placeholder="Adicionar repositório"
