@@ -3,16 +3,36 @@ import axios from "axios";
 
 import GlobalStyle from "./global";
 
-import { Header, Repositories } from "./styles";
+import { Header, Repositories, Offline } from "./styles";
 
 class App extends Component {
   state = {
+    online: navigator.onLine,
     newRepoInput: "",
-    repositories: []
+    repositories:
+      JSON.parse(localStorage.getItem("@Rocketseat:repositories")) || []
+  };
+
+  componentDidMount() {
+    window.addEventListener("online", this.handleNetworkChange);
+    window.addEventListener("offline", this.handleNetworkChange);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("online", this.handleNetworkChange);
+    window.removeEventListener("offline", this.handleNetworkChange);
+  }
+
+  handleNetworkChange = () => {
+    this.setState({ online: navigator.onLine });
   };
 
   addRepository = async () => {
     if (!this.state.newRepoInput) return;
+
+    if (!this.state.online) {
+      alert("Você está offline, conecte-se para fazer essa ação!");
+    }
 
     const response = await axios.get(
       `https://api.github.com/repos/${this.state.newRepoInput}`
@@ -22,6 +42,11 @@ class App extends Component {
       newRepoInput: "",
       repositories: [...this.state.repositories, response.data]
     });
+
+    localStorage.setItem(
+      "@Rocketseat:repositories",
+      JSON.stringify(this.state.repositories)
+    );
   };
 
   render() {
@@ -50,6 +75,8 @@ class App extends Component {
             </li>
           ))}
         </Repositories>
+
+        {!this.state.online && <Offline>Você está offline</Offline>}
       </Fragment>
     );
   }

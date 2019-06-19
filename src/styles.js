@@ -93,3 +93,17 @@ export const Repositories = styled.ul`
     }
   }
 `;
+
+export const Offline = styled.div`
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background: #c15959;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+`;
