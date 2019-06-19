@@ -26,6 +26,8 @@ Descrição.
 
   - [Bibliotecas](#bibliotecas)
 
+  - [APIs](#apis)
+
 ## Desenvolvimento
 
 ### Configurações Iniciais
@@ -44,6 +46,20 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Bibliotecas
 
+- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+
 - [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
 - [Firebase CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/firebase-tools.md)
+
+- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um repositório pertencente a um usuário
