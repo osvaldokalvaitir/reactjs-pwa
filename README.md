@@ -41,13 +41,13 @@ Aplicação Rocketseat usando Create React App, Axios, styled-components, Rocket
 ### Principal no Desktop
 
 ![Main - Desktop](/assets/main-desktop.png)
-Nesta tela redimensionada para desktop estão todos os repositórios do GitHub adicionados pelo usuário, podendo também adicionar novos repositórios informando o usuário e o repositório.
+Nesta tela redimensionada no desktop estão todos os repositórios do GitHub adicionados pelo usuário, podendo também adicionar novos repositórios informando o usuário e o repositório.
 
 ### Principal no Mobile
 
 ![Main - Mobile](/assets/main-mobile.png)
 
-Esta é a mesma tela da anterior, mas redimensionada para mobile.
+Esta é a mesma tela Principal do tópico anterior, mas redimensionada no mobile.
 
 ## Desenvolvimento
 
