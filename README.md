@@ -28,6 +28,8 @@ Descrição.
 
   - [APIs](#apis)
 
+  - [Ferramentas](#ferramentas)
+
 ## Desenvolvimento
 
 ### Configurações Iniciais
@@ -52,6 +54,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Firebase CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/firebase-tools.md)
 
+- [RocketPWA](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/rocketpwa.md)
+
 - [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
 
 ### APIs
@@ -63,3 +67,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
     - Usuários
 
       - Busca dados de um repositório pertencente a um usuário
+
+### Ferramentas
+
+- [Firebase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/firebase.md) - Siga `Criar um projeto`
