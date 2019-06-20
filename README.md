@@ -10,9 +10,15 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Descrição.
+Aplicação Rocketseat usando Create React App, Axios, styled-components, RocketPWA, Firebase CLI, Firebase e Lighthouse.
 
 ## Índice
+
+- [Capturas de Tela](#capturas-de-tela)
+
+  - [Principal no Desktop](#principal-no-desktop)
+
+  - [Principal no Mobile](#principal-no-mobile)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -29,6 +35,19 @@ Descrição.
   - [APIs](#apis)
 
   - [Ferramentas](#ferramentas)
+
+## Capturas de Tela
+
+### Principal no Desktop
+
+![Main - Desktop](/assets/main-desktop.png)
+Nesta tela redimensionada para desktop estão todos os repositórios do GitHub adicionados pelo usuário, podendo também adicionar novos repositórios informando o usuário e o repositório.
+
+### Principal no Mobile
+
+![Main - Mobile](/assets/main-mobile.png)
+
+Esta é a mesma tela da anterior, mas redimensionada para mobile.
 
 ## Desenvolvimento
 
@@ -71,3 +90,5 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Ferramentas
 
 - [Firebase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/firebase.md) - Siga `Criar um projeto`
+
+- [Lighthouse](https://github.com/osvaldokalvaitir/projects-settings/blob/master/browser/chrome/extensions/lighthouse.md)
