@@ -79,7 +79,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### APIs
 
-- **[GitHub](https://api.github.com)**
+- **[GitHub API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/github-api.md)**
 
   - **Rotas**
 
