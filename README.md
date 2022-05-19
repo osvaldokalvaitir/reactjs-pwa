@@ -1,94 +1,64 @@
-# ReactJS - PWA
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="400px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-pwa/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-pwa.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-pwa.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-pwa.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-pwa.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-pwa.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-pwa.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  ReactJS - PWA
+</h3>
 
-Aplicação Rocketseat usando Create React App, Axios, styled-components, RocketPWA, Firebase CLI, Firebase e Lighthouse.
+<p align="center">
+  :octocat: Rocketseat Application using Create React App, Axios, styled-components, RocketPWA, Firebase CLI, Firebase, Lighthouse and consuming the features of the GitHub API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-pwa.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-pwa.svg?color=00A83A">
 
-  - [Principal no Desktop](#principal-no-desktop)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Principal no Mobile](#principal-no-mobile)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :computer: Demo
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+![Demo](/.github/assets/demo.gif)
 
-  - [Execução do Projeto](#execução-do-projeto)
+## :wrench: Install and run
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-pwa
 
-  - [APIs](#apis)
+# Entry in folder
+cd reactjs-pwa
 
-  - [Ferramentas](#ferramentas)
+# Install deps with npm or yarn
+npm install | yarn
 
-## Capturas de Tela
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-### Principal no Desktop
+Click to learn more: [Firebase](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/firebase.md) - Follow the steps `Criar um projeto`, [Lighthouse](https://github.com/osvaldokalvaitir/awesome/blob/main/src/browsers/chrome/extensions/lighthouse.md).
 
-![Main - Desktop](/.github/assets/main-desktop.png)
-Nesta tela redimensionada no desktop estão todos os repositórios do GitHub adicionados pelo usuário, podendo também adicionar novos repositórios informando o usuário e o repositório.
 
-### Principal no Mobile
+## :memo: License
 
-![Main - Mobile](/.github/assets/main-mobile.png)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-Esta é a mesma tela Principal do tópico anterior, mas redimensionada no mobile.
+---
 
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [Firebase CLI](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/firebase-tools.md)
-
-- [RocketPWA](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/rocketpwa.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
-
-### APIs
-
-- **[GitHub API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/github-api.md)**
-
-  - **Rotas**
-
-    - Usuários
-
-      - Busca dados de um repositório pertencente a um usuário
-
-### Ferramentas
-
-- [Firebase](https://github.com/osvaldokalvaitir/projects-settings/blob/master/development-platform/firebase.md) - Siga `Criar um projeto`
-
-- [Lighthouse](https://github.com/osvaldokalvaitir/projects-settings/blob/master/browser/chrome/extensions/lighthouse.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
