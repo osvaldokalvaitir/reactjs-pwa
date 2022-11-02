@@ -47,7 +47,7 @@ cd reactjs-pwa
 npm install | yarn
 
 # Launch the app with npm or yarn
-npm start | yarn start
+npm run start | yarn start
 ```
 
 Click to learn more: [Firebase](https://github.com/osvaldokalvaitir/awesome/blob/main/src/development-platforms/firebase.md) - Follow the steps `Criar um projeto`, [Lighthouse](https://github.com/osvaldokalvaitir/awesome/blob/main/src/browsers/chrome/extensions/lighthouse.md).
